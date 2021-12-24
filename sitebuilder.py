@@ -16,6 +16,7 @@ pages = FlatPages(app)
 
 FLATPAGES_AUTO_RELOAD = DEBUG
 
+app.config['FREEZER_DESTINATION'] = './docs/'
 freezer = Freezer(app)
 
 
